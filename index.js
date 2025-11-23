@@ -19,5 +19,6 @@ app.use((req, res) => {
     express.static(path.join(__dirname, 'dist'))
 });
 
+
 const PORT = process.env.PORT || 8000
 app.listen(PORT, console.log(`Server Is Running at Port ${PORT}`))
