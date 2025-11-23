@@ -2,7 +2,7 @@ const FaqRouter = require("express").Router()
 const {
     verifyAll,
     verifyAdmin,
-    verifySuperAdmin,
+    verifySuperAdmin, 
 } = require("../auth/authentication")
 const {
     createRecord,
